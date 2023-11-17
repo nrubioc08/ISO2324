@@ -20,7 +20,7 @@ if %opcion%==5 goto Opcion5
 
 :Opcion1
 set /p nombreFichero="Escriba el nombre del fichero "
-mkdir %nombreFichero%
+echo > %nombreFichero%
 exit
 
 :Opcion2
