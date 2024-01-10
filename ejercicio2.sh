@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #
 
 # Script direccion IP
