@@ -52,7 +52,7 @@ while [ $i -le $2 ]; do
 		;;
 		*)
 			echo "Error, operación incorrecta"
-			exit
+			break
 		;;
 	esac
 i=$(($i+1))
