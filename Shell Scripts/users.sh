@@ -18,8 +18,8 @@ fi
 if [ $# == 0 ]; then
 	variable=1000
 fi
-dia=$(date +%D)
-hora=$(date +%H:%M)
+dia=$(date +"%d-%m-%y"
+hora=$(date +"%H:%M")
 
 echo "===================================================================="
 echo
